@@ -12,6 +12,8 @@
 		95B8242C2A7AA4F800637CBC /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 95B8242B2A7AA4F800637CBC /* Experience.rcproject */; };
 		95B8242E2A7AA4F900637CBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95B8242D2A7AA4F900637CBC /* Assets.xcassets */; };
 		95B824312A7AA4F900637CBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95B824302A7AA4F900637CBC /* Preview Assets.xcassets */; };
+		95B824382A7AA5E300637CBC /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B824372A7AA5E300637CBC /* ARViewController.swift */; };
+		95B8243B2A7AA62600637CBC /* CoffeeTable.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 95B8243A2A7AA62600637CBC /* CoffeeTable.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		95B8242B2A7AA4F800637CBC /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		95B8242D2A7AA4F900637CBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95B824302A7AA4F900637CBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95B824372A7AA5E300637CBC /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		95B8243A2A7AA62600637CBC /* CoffeeTable.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = CoffeeTable.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 		95B824262A7AA4F800637CBC /* MC3_Realmscape */ = {
 			isa = PBXGroup;
 			children = (
+				95B824392A7AA60B00637CBC /* 3DModels */,
 				95B824272A7AA4F800637CBC /* AppDelegate.swift */,
+				95B824372A7AA5E300637CBC /* ARViewController.swift */,
 				95B824292A7AA4F800637CBC /* ContentView.swift */,
 				95B8242B2A7AA4F800637CBC /* Experience.rcproject */,
 				95B8242D2A7AA4F900637CBC /* Assets.xcassets */,
@@ -68,6 +74,14 @@
 				95B824302A7AA4F900637CBC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95B824392A7AA60B00637CBC /* 3DModels */ = {
+			isa = PBXGroup;
+			children = (
+				95B8243A2A7AA62600637CBC /* CoffeeTable.usdz */,
+			);
+			path = 3DModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95B8243B2A7AA62600637CBC /* CoffeeTable.usdz in Resources */,
 				95B824312A7AA4F900637CBC /* Preview Assets.xcassets in Resources */,
 				95B8242E2A7AA4F900637CBC /* Assets.xcassets in Resources */,
 			);
@@ -143,6 +158,7 @@
 				95B8242A2A7AA4F800637CBC /* ContentView.swift in Sources */,
 				95B824282A7AA4F800637CBC /* AppDelegate.swift in Sources */,
 				95B8242C2A7AA4F800637CBC /* Experience.rcproject in Sources */,
+				95B824382A7AA5E300637CBC /* ARViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
