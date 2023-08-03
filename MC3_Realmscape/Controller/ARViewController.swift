@@ -8,6 +8,7 @@
 import ARKit
 import RealityKit
 import SwiftUI
+import FocusEntity
 
 struct ARViewContainer: UIViewRepresentable {
     @Binding var modelConfirmedForPlacement: Model?
@@ -16,6 +17,7 @@ struct ARViewContainer: UIViewRepresentable {
         let arView = ARView(frame: .zero)
         
         let config = ARWorldTrackingConfiguration()
+        let focusSquare = FocusEntity(on: arView, focus: .classic)
         config.planeDetection = [.horizontal, .vertical]
         config.environmentTexturing = .automatic
         
