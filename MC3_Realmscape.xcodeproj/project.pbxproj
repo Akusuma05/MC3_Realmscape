@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		957A28332A7CE25600CE61D6 /* coba.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 957A28322A7CE25600CE61D6 /* coba.usdz */; };
+		957A28352A7CF16700CE61D6 /* SimpleConsoleTable.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 957A28342A7CF16700CE61D6 /* SimpleConsoleTable.usdz */; };
 		959939692A7BFC5D00DC2223 /* robot_walk_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 959939652A7BFC5C00DC2223 /* robot_walk_idle.usdz */; };
 		9599396A2A7BFC5D00DC2223 /* sneaker_airforce.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 959939662A7BFC5D00DC2223 /* sneaker_airforce.usdz */; };
 		9599396B2A7BFC5D00DC2223 /* toy_biplane_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 959939672A7BFC5D00DC2223 /* toy_biplane_idle.usdz */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		957A28322A7CE25600CE61D6 /* coba.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = coba.usdz; sourceTree = "<group>"; };
+		957A28342A7CF16700CE61D6 /* SimpleConsoleTable.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = SimpleConsoleTable.usdz; sourceTree = "<group>"; };
 		959939652A7BFC5C00DC2223 /* robot_walk_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = robot_walk_idle.usdz; sourceTree = "<group>"; };
 		959939662A7BFC5D00DC2223 /* sneaker_airforce.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = sneaker_airforce.usdz; sourceTree = "<group>"; };
 		959939672A7BFC5D00DC2223 /* toy_biplane_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane_idle.usdz; sourceTree = "<group>"; };
@@ -112,6 +116,8 @@
 		95B824392A7AA60B00637CBC /* 3DModels */ = {
 			isa = PBXGroup;
 			children = (
+				957A28342A7CF16700CE61D6 /* SimpleConsoleTable.usdz */,
+				957A28322A7CE25600CE61D6 /* coba.usdz */,
 				959939652A7BFC5C00DC2223 /* robot_walk_idle.usdz */,
 				959939662A7BFC5D00DC2223 /* sneaker_airforce.usdz */,
 				959939672A7BFC5D00DC2223 /* toy_biplane_idle.usdz */,
@@ -192,8 +198,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				957A28352A7CF16700CE61D6 /* SimpleConsoleTable.usdz in Resources */,
 				9599396A2A7BFC5D00DC2223 /* sneaker_airforce.usdz in Resources */,
 				959939692A7BFC5D00DC2223 /* robot_walk_idle.usdz in Resources */,
+				957A28332A7CE25600CE61D6 /* coba.usdz in Resources */,
 				9599396C2A7BFC5D00DC2223 /* tv_retro.usdz in Resources */,
 				95B824312A7AA4F900637CBC /* Preview Assets.xcassets in Resources */,
 				9599396B2A7BFC5D00DC2223 /* toy_biplane_idle.usdz in Resources */,

@@ -89,12 +89,16 @@ extension ARView{
     @objc func handleLongPress(recognizer: UILongPressGestureRecognizer){
         let location = recognizer.location(in: self)
         
-        if let entity = self.entity(at: location){
-            if let anchorEntity = entity.anchor, anchorEntity.name == "CubeAnchor"{
-                anchorEntity.removeFromParent()
-                print("Removed anchor with name: " + anchorEntity.name)
+        if let entity = self.entity(at: location), let modelEntity = entity as? ModelEntity {
+                // Remove the ModelEntity from its parent
+                modelEntity.removeFromParent()
             }
-        }
+//        if let entity = self.entity(at: location){
+//            if let anchorEntity = entity.anchor, anchorEntity.name == "CubeAnchor"{
+//                anchorEntity.removeFromParent()
+//                print("Removed anchor with name: " + anchorEntity.name)
+//            }
+//        }
     }
 }
 
