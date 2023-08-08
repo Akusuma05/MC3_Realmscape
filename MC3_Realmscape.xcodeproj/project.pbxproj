@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		957A28332A7CE25600CE61D6 /* coba.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 957A28322A7CE25600CE61D6 /* coba.usdz */; };
-		957A28352A7CF16700CE61D6 /* SimpleConsoleTable.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 957A28342A7CF16700CE61D6 /* SimpleConsoleTable.usdz */; };
+		95290F1E2A80FD00004F0574 /* plane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 95290F1D2A80FD00004F0574 /* plane.usdz */; };
+		957A28442A7CFAFE00CE61D6 /* coba.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 957A28422A7CFAFE00CE61D6 /* coba.usdz */; };
+		957A284B2A7CFDE000CE61D6 /* SimpleConsoleTable.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 957A284A2A7CFDE000CE61D6 /* SimpleConsoleTable.usdz */; };
 		959939692A7BFC5D00DC2223 /* robot_walk_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 959939652A7BFC5C00DC2223 /* robot_walk_idle.usdz */; };
 		9599396A2A7BFC5D00DC2223 /* sneaker_airforce.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 959939662A7BFC5D00DC2223 /* sneaker_airforce.usdz */; };
 		9599396B2A7BFC5D00DC2223 /* toy_biplane_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 959939672A7BFC5D00DC2223 /* toy_biplane_idle.usdz */; };
@@ -21,13 +22,15 @@
 		95B8242E2A7AA4F900637CBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95B8242D2A7AA4F900637CBC /* Assets.xcassets */; };
 		95B824312A7AA4F900637CBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95B824302A7AA4F900637CBC /* Preview Assets.xcassets */; };
 		95B824382A7AA5E300637CBC /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B824372A7AA5E300637CBC /* ARViewController.swift */; };
+		95D9C3932A814875004B7A7E /* SideStoneTable.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 95D9C3922A814874004B7A7E /* SideStoneTable.usdz */; };
 		95E7CD5C2A7C1B9000D28D60 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E7CD5B2A7C1B9000D28D60 /* Model.swift */; };
 		95E7CD5F2A7C203F00D28D60 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 95E7CD5E2A7C203F00D28D60 /* FocusEntity */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		957A28322A7CE25600CE61D6 /* coba.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = coba.usdz; sourceTree = "<group>"; };
-		957A28342A7CF16700CE61D6 /* SimpleConsoleTable.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = SimpleConsoleTable.usdz; sourceTree = "<group>"; };
+		95290F1D2A80FD00004F0574 /* plane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = plane.usdz; path = ../../../../../../../Downloads/plane.usdz; sourceTree = "<group>"; };
+		957A28422A7CFAFE00CE61D6 /* coba.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = coba.usdz; sourceTree = "<group>"; };
+		957A284A2A7CFDE000CE61D6 /* SimpleConsoleTable.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = SimpleConsoleTable.usdz; sourceTree = "<group>"; };
 		959939652A7BFC5C00DC2223 /* robot_walk_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = robot_walk_idle.usdz; sourceTree = "<group>"; };
 		959939662A7BFC5D00DC2223 /* sneaker_airforce.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = sneaker_airforce.usdz; sourceTree = "<group>"; };
 		959939672A7BFC5D00DC2223 /* toy_biplane_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane_idle.usdz; sourceTree = "<group>"; };
@@ -41,6 +44,7 @@
 		95B8242D2A7AA4F900637CBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95B824302A7AA4F900637CBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95B824372A7AA5E300637CBC /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		95D9C3922A814874004B7A7E /* SideStoneTable.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = SideStoneTable.usdz; sourceTree = "<group>"; };
 		95E7CD5B2A7C1B9000D28D60 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,10 +99,10 @@
 				95E7CD602A7C204800D28D60 /* Models */,
 				959939722A7C073B00DC2223 /* Controller */,
 				959939712A7C072900DC2223 /* View */,
-				95B824392A7AA60B00637CBC /* 3DModels */,
 				95B824272A7AA4F800637CBC /* AppDelegate.swift */,
 				95B824292A7AA4F800637CBC /* ContentView.swift */,
 				95B8242B2A7AA4F800637CBC /* Experience.rcproject */,
+				95B824392A7AA60B00637CBC /* 3DModels */,
 				95B8242D2A7AA4F900637CBC /* Assets.xcassets */,
 				95B8242F2A7AA4F900637CBC /* Preview Content */,
 			);
@@ -116,8 +120,10 @@
 		95B824392A7AA60B00637CBC /* 3DModels */ = {
 			isa = PBXGroup;
 			children = (
-				957A28342A7CF16700CE61D6 /* SimpleConsoleTable.usdz */,
-				957A28322A7CE25600CE61D6 /* coba.usdz */,
+				95D9C3922A814874004B7A7E /* SideStoneTable.usdz */,
+				95290F1D2A80FD00004F0574 /* plane.usdz */,
+				957A284A2A7CFDE000CE61D6 /* SimpleConsoleTable.usdz */,
+				957A28422A7CFAFE00CE61D6 /* coba.usdz */,
 				959939652A7BFC5C00DC2223 /* robot_walk_idle.usdz */,
 				959939662A7BFC5D00DC2223 /* sneaker_airforce.usdz */,
 				959939672A7BFC5D00DC2223 /* toy_biplane_idle.usdz */,
@@ -198,14 +204,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				957A28352A7CF16700CE61D6 /* SimpleConsoleTable.usdz in Resources */,
 				9599396A2A7BFC5D00DC2223 /* sneaker_airforce.usdz in Resources */,
+				957A28442A7CFAFE00CE61D6 /* coba.usdz in Resources */,
 				959939692A7BFC5D00DC2223 /* robot_walk_idle.usdz in Resources */,
-				957A28332A7CE25600CE61D6 /* coba.usdz in Resources */,
 				9599396C2A7BFC5D00DC2223 /* tv_retro.usdz in Resources */,
+				95290F1E2A80FD00004F0574 /* plane.usdz in Resources */,
 				95B824312A7AA4F900637CBC /* Preview Assets.xcassets in Resources */,
 				9599396B2A7BFC5D00DC2223 /* toy_biplane_idle.usdz in Resources */,
 				95B8242E2A7AA4F900637CBC /* Assets.xcassets in Resources */,
+				957A284B2A7CFDE000CE61D6 /* SimpleConsoleTable.usdz in Resources */,
+				95D9C3932A814875004B7A7E /* SideStoneTable.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
