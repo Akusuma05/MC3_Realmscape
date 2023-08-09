@@ -11,7 +11,6 @@ import RealityKit
 import SwiftUI
 
 struct ModelPickerView: View {
-    @Binding var isPlacementEnabled: Bool
     @Binding var selectedModel: Model?
     
     var models: [Model]
@@ -24,7 +23,6 @@ struct ModelPickerView: View {
                     Button(action: {
                         print("DEBUG: selected model with name: \(models[index])")
                         selectedModel = models[index]
-                        isPlacementEnabled = true
                     }) {
                         Image(uiImage: models[index].image)
                             .resizable()

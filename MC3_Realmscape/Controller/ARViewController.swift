@@ -11,7 +11,7 @@ import SwiftUI
 import FocusEntity
 
 struct ARViewContainer: UIViewRepresentable {
-    @Binding var modelConfirmedForPlacement: Model?
+    @Binding var selectedModel: Model?
     
     func makeUIView(context: Context) -> CustomARView {
         let arView = CustomARView(frame: .zero, cameraMode: .ar, automaticallyConfigureSession: true)
@@ -35,46 +35,11 @@ struct ARViewContainer: UIViewRepresentable {
     func updateUIView(_ uiView: CustomARView, context: Context) {
         var isModelEntityPresent = false
         
-        if let model = modelConfirmedForPlacement {
+        if let model = selectedModel {
             uiView.model = model
-//            if let modelEntity = model.modelEntity {
-//                for anchor in uiView.scene.anchors {
-//                    for entity in anchor.children {
-//                        if entity == modelEntity {
-//                            print("DEBUG: adding clone model to scene - \(model.modelName)")
-//                            let clonedModelEntity = modelEntity.clone(recursive: true)
-//                            let anchorEntity = AnchorEntity(plane: .any)
-//                            uiView.scene.addAnchor(anchorEntity)
-//                            anchorEntity.addChild(clonedModelEntity)
-//
-//                            clonedModelEntity.generateCollisionShapes(recursive: true)
-//                            uiView.installGestures([.translation, .rotation], for: clonedModelEntity)
-//                            isModelEntityPresent = true
-//                            break
-//                        }
-//                        break
-//                    }
-//
-//                }
-//                if isModelEntityPresent == false{
-//                    print("DEBUG: adding model to scene - \(model.modelName)")
-//
-//                    let anchorEntity = AnchorEntity(plane: .any)
-//                    uiView.scene.addAnchor(anchorEntity)
-//                    anchorEntity.addChild(modelEntity)
-//
-//                    //Move and rotate
-//                    //Generate Collision Shapes
-//                    modelEntity.generateCollisionShapes(recursive: true)
-//                    uiView.installGestures([.translation, .rotation], for: modelEntity)
-//                }
-//
-//            } else {
-//                print("DEBUG: Unable to load modelEntity for \(model.modelName)")
-//            }
-            
+    
             DispatchQueue.main.async {
-                modelConfirmedForPlacement = nil
+                selectedModel = nil
             }
         }
     }

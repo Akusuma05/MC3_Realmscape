@@ -11,10 +11,7 @@ import ARKit
 import FocusEntity
 
 struct ContentView : View {
-    @State private var isPlacementEnabled = false
     @State private var selectedModel: Model?
-    @State private var modelConfirmedForPlacement: Model?
-//    var models: [String] = ["robot_walk_idle", "sneaker_airforce", "toy_biplane_idle", "tv_retro"]
     
     private var models: [Model] = {
         let filemanager = FileManager.default
@@ -33,13 +30,9 @@ struct ContentView : View {
     
     var body: some View {
         ZStack(alignment: .bottom) {
-            ARViewContainer(modelConfirmedForPlacement: $modelConfirmedForPlacement)
+            ARViewContainer(selectedModel: $selectedModel)
             
-            if isPlacementEnabled {
-                PlacementButtonsView(isPlacementEnabled: $isPlacementEnabled, selectedModel: $selectedModel, modelConfirmedForPlacement: $modelConfirmedForPlacement)
-            } else {
-                ModelPickerView(isPlacementEnabled: $isPlacementEnabled, selectedModel: $selectedModel, models: models)
-            }
+            ModelPickerView(selectedModel: $selectedModel, models: models)
         }
     }
 }
