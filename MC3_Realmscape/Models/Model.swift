@@ -10,7 +10,7 @@ import UIKit
 import RealityKit
 import Combine
 
-class Model {
+class Model: Identifiable {
     var modelName: String
     var image: UIImage
     var modelEntity: ModelEntity?
