@@ -13,9 +13,11 @@ import FocusEntity
 struct ContentView : View {
     @State private var selectedModel: Model?
     @State private var showingSheet = false
+    
     let heavyImpact = UIImpactFeedbackGenerator(style: .heavy)
     
     @State private var activeIndex: Int = 0
+    @State private var test: String = "Large Pillow"
     
     private var models: [Model] = {
         let filemanager = FileManager.default
@@ -37,13 +39,20 @@ struct ContentView : View {
             //Ar View Camera
             
             ARViewContainer(selectedModel: $selectedModel)
-            
-            
+           
             //Radial Layout
             GeometryReader(content: { geometry in
                 VStack{
                     Spacer(minLength: 0)
-                    RadialLayout(items: models, id: \.modelName, spacing: 220) { Model, index, size in
+                    
+                    Text(test)
+                        .padding(2)
+                        .foregroundColor(.white)
+                        .background(.ultraThinMaterial)
+                        .cornerRadius(5)
+                        .padding()
+                    
+                    RadialLayout(items: models, id: \.modelName, spacing: 150) { Model, index, size in
                         Image(uiImage: models[index].image)
                             .resizable()
                             .scaledToFit()
@@ -51,19 +60,20 @@ struct ContentView : View {
                             .background(Color.white)
                             .cornerRadius(40)
                             .overlay(
-                                activeIndex == index ? RoundedRectangle(cornerRadius: 10)
+                                activeIndex == index ?
+                                RoundedRectangle(cornerRadius: 10)
                                     .stroke(Color.blue, lineWidth: 4)
-                                    .showCase(order: 0, title: "Select a furniture by sliding left and right", cornerRadius: 10, style: .continuous, offset: 190)
+                                    .showCase(order: 0, title: "Select a furniture by sliding left and right", cornerRadius: 10, style: .continuous, offset: 325)
                                 : nil
                             )
                         
                     } onIndexChange: { index in
                         activeIndex = index
                         selectedModel = models[index]
-                        
+                        test = selectedModel!.modelName
                     }
                     .padding(.horizontal, -150)
-                    .frame(width: geometry.size.width, height: geometry.size.width / 2)
+                    .frame(width: geometry.size.width, height: geometry.size.width / 3)
                     
                     
                 }
