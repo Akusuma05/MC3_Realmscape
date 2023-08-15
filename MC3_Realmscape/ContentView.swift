@@ -34,8 +34,12 @@ struct ContentView : View {
     
     var body: some View {
         ZStack(alignment: .bottom) {
+            //Ar View Camera
+            
             ARViewContainer(selectedModel: $selectedModel)
             
+            
+            //Radial Layout
             GeometryReader(content: { geometry in
                 VStack{
                     Spacer(minLength: 0)
@@ -46,8 +50,12 @@ struct ContentView : View {
                             .frame(width: 80, height: 80)
                             .background(Color.white)
                             .cornerRadius(40)
-                            .overlay(RoundedRectangle(cornerRadius: 10)
-                                        .stroke(Color.blue, lineWidth: activeIndex == index ? 4 : 0))
+                            .overlay(
+                                activeIndex == index ? RoundedRectangle(cornerRadius: 10)
+                                    .stroke(Color.blue, lineWidth: 4)
+                                    .showCase(order: 0, title: "Select a furniture by sliding left and right", cornerRadius: 10, style: .continuous, offset: 190)
+                                : nil
+                            )
                         
                     } onIndexChange: { index in
                         activeIndex = index
@@ -62,7 +70,36 @@ struct ContentView : View {
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
             })
             .padding(15)
+            
+            
+            //OnBoarding
         }
+        .overlay(alignment: .bottom, content: {
+            ZStack() {
+                Circle()
+                    .foregroundColor(.clear)
+                    .frame(width: 45, height: 45)
+                    .showCase(order: 1, title: "Tap here to place object", cornerRadius: 30, style: .continuous, offset: 0)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                
+                Circle()
+                    .foregroundColor(.clear)
+                    .frame(width: 45, height: 45)
+                    .showCase(order: 2, title: "Drag with 1 finger to move, and 2 fingers to rotate", cornerRadius: 30, style: .continuous, offset: 0)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                
+                Circle()
+                    .foregroundColor(.clear)
+                    .frame(width: 45, height: 45)
+                    .showCase(order: 3, title: "Hold the object to delete", cornerRadius: 30, style: .continuous, offset: 0)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                
+            }
+            .allowsHitTesting(false)
+        })
+        .modifier(ShowCaseRoot(showHighlights: true, onFinished: {
+            print("Finished OnBoarding")
+        }))
     }
 }
 

@@ -14,7 +14,6 @@
 		9522EA2B2A84D77100C6D89B /* StoneVase.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9522EA292A84D77100C6D89B /* StoneVase.usdz */; };
 		9522EA4B2A84DDCE00C6D89B /* desklamp.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9522EA4A2A84DDCD00C6D89B /* desklamp.usdz */; };
 		9522EA4D2A84EC1200C6D89B /* lamp.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9522EA4C2A84EC1200C6D89B /* lamp.usdz */; };
-		95290F1E2A80FD00004F0574 /* plane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 95290F1D2A80FD00004F0574 /* plane.usdz */; };
 		954C0AF92A839BD500EC15EA /* sofa.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 954C0AF82A839BD500EC15EA /* sofa.usdz */; };
 		954C0AFE2A839C8800EC15EA /* SideStoneTable.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 954C0AFA2A839C8800EC15EA /* SideStoneTable.usdz */; };
 		954C0B062A839E5500EC15EA /* SideWoodTable.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 954C0B032A839E5500EC15EA /* SideWoodTable.usdz */; };
@@ -37,9 +36,16 @@
 		95B8242E2A7AA4F900637CBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95B8242D2A7AA4F900637CBC /* Assets.xcassets */; };
 		95B824312A7AA4F900637CBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95B824302A7AA4F900637CBC /* Preview Assets.xcassets */; };
 		95B824382A7AA5E300637CBC /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B824372A7AA5E300637CBC /* ARViewController.swift */; };
+		95BAA6162A8B610B00802421 /* OfficeChair.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 95BAA6152A8B610B00802421 /* OfficeChair.usdz */; };
+		95BAA61A2A8B61B800802421 /* BookshelfNoBook.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 95BAA6172A8B61B700802421 /* BookshelfNoBook.usdz */; };
+		95BAA61B2A8B61B800802421 /* BookshelfWithBook.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 95BAA6182A8B61B800802421 /* BookshelfWithBook.usdz */; };
+		95BAA61C2A8B61B800802421 /* Book.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 95BAA6192A8B61B800802421 /* Book.usdz */; };
+		95BAA61E2A8B804200802421 /* Laptop.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 95BAA61D2A8B804200802421 /* Laptop.usdz */; };
 		95D0444D2A86251500183B72 /* StandingLamp.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 95D0444C2A86251500183B72 /* StandingLamp.usdz */; };
 		95D044512A8633D500183B72 /* SconceLamp.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 95D044502A8633D500183B72 /* SconceLamp.usdz */; };
 		95D044552A863B0700183B72 /* Chandelier.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 95D044542A863B0700183B72 /* Chandelier.usdz */; };
+		95D9EAB82A8A658400E7F8C8 /* ShowCaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D9EAB72A8A658400E7F8C8 /* ShowCaseHelper.swift */; };
+		95D9EABA2A8A691B00E7F8C8 /* Highlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D9EAB92A8A691B00E7F8C8 /* Highlight.swift */; };
 		95E7CD5C2A7C1B9000D28D60 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E7CD5B2A7C1B9000D28D60 /* Model.swift */; };
 		95E7CD5F2A7C203F00D28D60 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 95E7CD5E2A7C203F00D28D60 /* FocusEntity */; };
 		95FBCA5F2A853BE400400F8B /* RadialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FBCA5E2A853BE400400F8B /* RadialView.swift */; };
@@ -53,7 +59,6 @@
 		9522EA292A84D77100C6D89B /* StoneVase.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = StoneVase.usdz; sourceTree = "<group>"; };
 		9522EA4A2A84DDCD00C6D89B /* desklamp.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = desklamp.usdz; sourceTree = "<group>"; };
 		9522EA4C2A84EC1200C6D89B /* lamp.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = lamp.usdz; sourceTree = "<group>"; };
-		95290F1D2A80FD00004F0574 /* plane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = plane.usdz; path = ../../../../../../../Downloads/plane.usdz; sourceTree = "<group>"; };
 		954C0AF82A839BD500EC15EA /* sofa.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = sofa.usdz; sourceTree = "<group>"; };
 		954C0AFA2A839C8800EC15EA /* SideStoneTable.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = SideStoneTable.usdz; sourceTree = "<group>"; };
 		954C0B032A839E5500EC15EA /* SideWoodTable.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = SideWoodTable.usdz; sourceTree = "<group>"; };
@@ -77,9 +82,16 @@
 		95B8242D2A7AA4F900637CBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95B824302A7AA4F900637CBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95B824372A7AA5E300637CBC /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		95BAA6152A8B610B00802421 /* OfficeChair.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = OfficeChair.usdz; sourceTree = "<group>"; };
+		95BAA6172A8B61B700802421 /* BookshelfNoBook.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = BookshelfNoBook.usdz; sourceTree = "<group>"; };
+		95BAA6182A8B61B800802421 /* BookshelfWithBook.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = BookshelfWithBook.usdz; sourceTree = "<group>"; };
+		95BAA6192A8B61B800802421 /* Book.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Book.usdz; sourceTree = "<group>"; };
+		95BAA61D2A8B804200802421 /* Laptop.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Laptop.usdz; sourceTree = "<group>"; };
 		95D0444C2A86251500183B72 /* StandingLamp.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = StandingLamp.usdz; sourceTree = "<group>"; };
 		95D044502A8633D500183B72 /* SconceLamp.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = SconceLamp.usdz; sourceTree = "<group>"; };
 		95D044542A863B0700183B72 /* Chandelier.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Chandelier.usdz; sourceTree = "<group>"; };
+		95D9EAB72A8A658400E7F8C8 /* ShowCaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCaseHelper.swift; sourceTree = "<group>"; };
+		95D9EAB92A8A691B00E7F8C8 /* Highlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Highlight.swift; sourceTree = "<group>"; };
 		95E7CD5B2A7C1B9000D28D60 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		95FBCA5E2A853BE400400F8B /* RadialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				95FBCA5E2A853BE400400F8B /* RadialView.swift */,
+				95D9EAB72A8A658400E7F8C8 /* ShowCaseHelper.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -155,6 +168,11 @@
 		95B824392A7AA60B00637CBC /* 3DModels */ = {
 			isa = PBXGroup;
 			children = (
+				95BAA61D2A8B804200802421 /* Laptop.usdz */,
+				95BAA6192A8B61B800802421 /* Book.usdz */,
+				95BAA6172A8B61B700802421 /* BookshelfNoBook.usdz */,
+				95BAA6182A8B61B800802421 /* BookshelfWithBook.usdz */,
+				95BAA6152A8B610B00802421 /* OfficeChair.usdz */,
 				959506402A8A1B0E0027D292 /* OfficeTable.usdz */,
 				959506342A8A130C0027D292 /* ModernWardrobe.usdz */,
 				959506362A8A13230027D292 /* SmallWardrobe.usdz */,
@@ -175,7 +193,6 @@
 				9522EA262A84D5B600C6D89B /* Painting.usdz */,
 				954C0AFA2A839C8800EC15EA /* SideStoneTable.usdz */,
 				954C0AF82A839BD500EC15EA /* sofa.usdz */,
-				95290F1D2A80FD00004F0574 /* plane.usdz */,
 				957A284A2A7CFDE000CE61D6 /* SimpleConsoleTable.usdz */,
 				957A28422A7CFAFE00CE61D6 /* coba.usdz */,
 				959939652A7BFC5C00DC2223 /* robot_walk_idle.usdz */,
@@ -190,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				95E7CD5B2A7C1B9000D28D60 /* Model.swift */,
+				95D9EAB92A8A691B00E7F8C8 /* Highlight.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -272,15 +290,19 @@
 				9522EA4B2A84DDCE00C6D89B /* desklamp.usdz in Resources */,
 				954C0B072A839E5500EC15EA /* ModernConsoleTable.usdz in Resources */,
 				954C0B132A83A0AB00EC15EA /* SmallPillow.usdz in Resources */,
-				95290F1E2A80FD00004F0574 /* plane.usdz in Resources */,
+				95BAA61B2A8B61B800802421 /* BookshelfWithBook.usdz in Resources */,
 				95B824312A7AA4F900637CBC /* Preview Assets.xcassets in Resources */,
 				9522EA2B2A84D77100C6D89B /* StoneVase.usdz in Resources */,
 				9599396B2A7BFC5D00DC2223 /* toy_biplane_idle.usdz in Resources */,
 				954C0B112A83A0AB00EC15EA /* LargePillow.usdz in Resources */,
+				95BAA61A2A8B61B800802421 /* BookshelfNoBook.usdz in Resources */,
 				95B8242E2A7AA4F900637CBC /* Assets.xcassets in Resources */,
 				9522EA272A84D5B600C6D89B /* Painting.usdz in Resources */,
 				954C0B122A83A0AB00EC15EA /* MediumPillow.usdz in Resources */,
+				95BAA61C2A8B61B800802421 /* Book.usdz in Resources */,
 				9522EA2A2A84D77100C6D89B /* SmallerSplitPaintings.usdz in Resources */,
+				95BAA6162A8B610B00802421 /* OfficeChair.usdz in Resources */,
+				95BAA61E2A8B804200802421 /* Laptop.usdz in Resources */,
 				9522EA4D2A84EC1200C6D89B /* lamp.usdz in Resources */,
 				9522EA252A84D5B300C6D89B /* vase.usdz in Resources */,
 				954C0AF92A839BD500EC15EA /* sofa.usdz in Resources */,
@@ -299,8 +321,10 @@
 			files = (
 				95E7CD5C2A7C1B9000D28D60 /* Model.swift in Sources */,
 				95B8242A2A7AA4F800637CBC /* ContentView.swift in Sources */,
+				95D9EABA2A8A691B00E7F8C8 /* Highlight.swift in Sources */,
 				95FBCA5F2A853BE400400F8B /* RadialView.swift in Sources */,
 				95B824282A7AA4F800637CBC /* AppDelegate.swift in Sources */,
+				95D9EAB82A8A658400E7F8C8 /* ShowCaseHelper.swift in Sources */,
 				95B8242C2A7AA4F800637CBC /* Experience.rcproject in Sources */,
 				95B824382A7AA5E300637CBC /* ARViewController.swift in Sources */,
 			);
