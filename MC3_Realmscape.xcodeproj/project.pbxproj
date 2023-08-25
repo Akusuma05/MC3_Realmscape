@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95119A292A93EF2F000F5AB9 /* GifImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95119A282A93EF2F000F5AB9 /* GifImage.swift */; };
+		95119A2B2A93F8C0000F5AB9 /* Intro.gif in Resources */ = {isa = PBXBuildFile; fileRef = 95119A2A2A93F8C0000F5AB9 /* Intro.gif */; };
 		9522EA212A84D4FA00C6D89B /* vas.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9522EA202A84D4FA00C6D89B /* vas.usdz */; };
 		9522EA252A84D5B300C6D89B /* vase.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9522EA242A84D5B300C6D89B /* vase.usdz */; };
 		9522EA272A84D5B600C6D89B /* Painting.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9522EA262A84D5B600C6D89B /* Painting.usdz */; };
@@ -21,15 +23,11 @@
 		954C0B112A83A0AB00EC15EA /* LargePillow.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 954C0B0E2A83A0AA00EC15EA /* LargePillow.usdz */; };
 		954C0B122A83A0AB00EC15EA /* MediumPillow.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 954C0B0F2A83A0AB00EC15EA /* MediumPillow.usdz */; };
 		954C0B132A83A0AB00EC15EA /* SmallPillow.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 954C0B102A83A0AB00EC15EA /* SmallPillow.usdz */; };
-		957A28442A7CFAFE00CE61D6 /* coba.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 957A28422A7CFAFE00CE61D6 /* coba.usdz */; };
+		957A28442A7CFAFE00CE61D6 /* Chair.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 957A28422A7CFAFE00CE61D6 /* Chair.usdz */; };
 		957A284B2A7CFDE000CE61D6 /* SimpleConsoleTable.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 957A284A2A7CFDE000CE61D6 /* SimpleConsoleTable.usdz */; };
 		959506352A8A130C0027D292 /* ModernWardrobe.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 959506342A8A130C0027D292 /* ModernWardrobe.usdz */; };
 		959506372A8A13230027D292 /* SmallWardrobe.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 959506362A8A13230027D292 /* SmallWardrobe.usdz */; };
 		959506412A8A1B0E0027D292 /* OfficeTable.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 959506402A8A1B0E0027D292 /* OfficeTable.usdz */; };
-		959939692A7BFC5D00DC2223 /* robot_walk_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 959939652A7BFC5C00DC2223 /* robot_walk_idle.usdz */; };
-		9599396A2A7BFC5D00DC2223 /* sneaker_airforce.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 959939662A7BFC5D00DC2223 /* sneaker_airforce.usdz */; };
-		9599396B2A7BFC5D00DC2223 /* toy_biplane_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 959939672A7BFC5D00DC2223 /* toy_biplane_idle.usdz */; };
-		9599396C2A7BFC5D00DC2223 /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 959939682A7BFC5D00DC2223 /* tv_retro.usdz */; };
 		95B824282A7AA4F800637CBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B824272A7AA4F800637CBC /* AppDelegate.swift */; };
 		95B8242A2A7AA4F800637CBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B824292A7AA4F800637CBC /* ContentView.swift */; };
 		95B8242C2A7AA4F800637CBC /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 95B8242B2A7AA4F800637CBC /* Experience.rcproject */; };
@@ -41,6 +39,7 @@
 		95BAA61B2A8B61B800802421 /* BookshelfWithBook.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 95BAA6182A8B61B800802421 /* BookshelfWithBook.usdz */; };
 		95BAA61C2A8B61B800802421 /* Book.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 95BAA6192A8B61B800802421 /* Book.usdz */; };
 		95BAA61E2A8B804200802421 /* Laptop.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 95BAA61D2A8B804200802421 /* Laptop.usdz */; };
+		95BE1CC82A8CCF660051997E /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BE1CC72A8CCF660051997E /* MenuView.swift */; };
 		95D0444D2A86251500183B72 /* StandingLamp.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 95D0444C2A86251500183B72 /* StandingLamp.usdz */; };
 		95D044512A8633D500183B72 /* SconceLamp.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 95D044502A8633D500183B72 /* SconceLamp.usdz */; };
 		95D044552A863B0700183B72 /* Chandelier.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 95D044542A863B0700183B72 /* Chandelier.usdz */; };
@@ -52,6 +51,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		95119A282A93EF2F000F5AB9 /* GifImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImage.swift; sourceTree = "<group>"; };
+		95119A2A2A93F8C0000F5AB9 /* Intro.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Intro.gif; sourceTree = "<group>"; };
 		9522EA202A84D4FA00C6D89B /* vas.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = vas.usdz; sourceTree = "<group>"; };
 		9522EA242A84D5B300C6D89B /* vase.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = vase.usdz; sourceTree = "<group>"; };
 		9522EA262A84D5B600C6D89B /* Painting.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Painting.usdz; sourceTree = "<group>"; };
@@ -66,15 +67,11 @@
 		954C0B0E2A83A0AA00EC15EA /* LargePillow.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = LargePillow.usdz; sourceTree = "<group>"; };
 		954C0B0F2A83A0AB00EC15EA /* MediumPillow.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = MediumPillow.usdz; sourceTree = "<group>"; };
 		954C0B102A83A0AB00EC15EA /* SmallPillow.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = SmallPillow.usdz; sourceTree = "<group>"; };
-		957A28422A7CFAFE00CE61D6 /* coba.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = coba.usdz; sourceTree = "<group>"; };
+		957A28422A7CFAFE00CE61D6 /* Chair.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Chair.usdz; sourceTree = "<group>"; };
 		957A284A2A7CFDE000CE61D6 /* SimpleConsoleTable.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = SimpleConsoleTable.usdz; sourceTree = "<group>"; };
 		959506342A8A130C0027D292 /* ModernWardrobe.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = ModernWardrobe.usdz; sourceTree = "<group>"; };
 		959506362A8A13230027D292 /* SmallWardrobe.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = SmallWardrobe.usdz; sourceTree = "<group>"; };
 		959506402A8A1B0E0027D292 /* OfficeTable.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = OfficeTable.usdz; sourceTree = "<group>"; };
-		959939652A7BFC5C00DC2223 /* robot_walk_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = robot_walk_idle.usdz; sourceTree = "<group>"; };
-		959939662A7BFC5D00DC2223 /* sneaker_airforce.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = sneaker_airforce.usdz; sourceTree = "<group>"; };
-		959939672A7BFC5D00DC2223 /* toy_biplane_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane_idle.usdz; sourceTree = "<group>"; };
-		959939682A7BFC5D00DC2223 /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tv_retro.usdz; sourceTree = "<group>"; };
 		95B824242A7AA4F800637CBC /* MC3_Realmscape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MC3_Realmscape.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95B824272A7AA4F800637CBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95B824292A7AA4F800637CBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +84,7 @@
 		95BAA6182A8B61B800802421 /* BookshelfWithBook.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = BookshelfWithBook.usdz; sourceTree = "<group>"; };
 		95BAA6192A8B61B800802421 /* Book.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Book.usdz; sourceTree = "<group>"; };
 		95BAA61D2A8B804200802421 /* Laptop.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Laptop.usdz; sourceTree = "<group>"; };
+		95BE1CC72A8CCF660051997E /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		95D0444C2A86251500183B72 /* StandingLamp.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = StandingLamp.usdz; sourceTree = "<group>"; };
 		95D044502A8633D500183B72 /* SconceLamp.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = SconceLamp.usdz; sourceTree = "<group>"; };
 		95D044542A863B0700183B72 /* Chandelier.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Chandelier.usdz; sourceTree = "<group>"; };
@@ -113,6 +111,8 @@
 			children = (
 				95FBCA5E2A853BE400400F8B /* RadialView.swift */,
 				95D9EAB72A8A658400E7F8C8 /* ShowCaseHelper.swift */,
+				95BE1CC72A8CCF660051997E /* MenuView.swift */,
+				95119A282A93EF2F000F5AB9 /* GifImage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -150,6 +150,7 @@
 				95B824272A7AA4F800637CBC /* AppDelegate.swift */,
 				95B824292A7AA4F800637CBC /* ContentView.swift */,
 				95B8242B2A7AA4F800637CBC /* Experience.rcproject */,
+				95BE1CCA2A8CD9270051997E /* Video */,
 				95B824392A7AA60B00637CBC /* 3DModels */,
 				95B8242D2A7AA4F900637CBC /* Assets.xcassets */,
 				95B8242F2A7AA4F900637CBC /* Preview Content */,
@@ -194,13 +195,17 @@
 				954C0AFA2A839C8800EC15EA /* SideStoneTable.usdz */,
 				954C0AF82A839BD500EC15EA /* sofa.usdz */,
 				957A284A2A7CFDE000CE61D6 /* SimpleConsoleTable.usdz */,
-				957A28422A7CFAFE00CE61D6 /* coba.usdz */,
-				959939652A7BFC5C00DC2223 /* robot_walk_idle.usdz */,
-				959939662A7BFC5D00DC2223 /* sneaker_airforce.usdz */,
-				959939672A7BFC5D00DC2223 /* toy_biplane_idle.usdz */,
-				959939682A7BFC5D00DC2223 /* tv_retro.usdz */,
+				957A28422A7CFAFE00CE61D6 /* Chair.usdz */,
 			);
 			path = 3DModels;
+			sourceTree = "<group>";
+		};
+		95BE1CCA2A8CD9270051997E /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				95119A2A2A93F8C0000F5AB9 /* Intro.gif */,
+			);
+			path = Video;
 			sourceTree = "<group>";
 		};
 		95E7CD602A7C204800D28D60 /* Models */ = {
@@ -278,22 +283,19 @@
 			files = (
 				954C0AFE2A839C8800EC15EA /* SideStoneTable.usdz in Resources */,
 				959506372A8A13230027D292 /* SmallWardrobe.usdz in Resources */,
-				9599396A2A7BFC5D00DC2223 /* sneaker_airforce.usdz in Resources */,
 				959506352A8A130C0027D292 /* ModernWardrobe.usdz in Resources */,
 				9522EA212A84D4FA00C6D89B /* vas.usdz in Resources */,
 				959506412A8A1B0E0027D292 /* OfficeTable.usdz in Resources */,
-				957A28442A7CFAFE00CE61D6 /* coba.usdz in Resources */,
+				957A28442A7CFAFE00CE61D6 /* Chair.usdz in Resources */,
 				954C0B062A839E5500EC15EA /* SideWoodTable.usdz in Resources */,
 				95D044552A863B0700183B72 /* Chandelier.usdz in Resources */,
-				959939692A7BFC5D00DC2223 /* robot_walk_idle.usdz in Resources */,
-				9599396C2A7BFC5D00DC2223 /* tv_retro.usdz in Resources */,
 				9522EA4B2A84DDCE00C6D89B /* desklamp.usdz in Resources */,
 				954C0B072A839E5500EC15EA /* ModernConsoleTable.usdz in Resources */,
 				954C0B132A83A0AB00EC15EA /* SmallPillow.usdz in Resources */,
+				95119A2B2A93F8C0000F5AB9 /* Intro.gif in Resources */,
 				95BAA61B2A8B61B800802421 /* BookshelfWithBook.usdz in Resources */,
 				95B824312A7AA4F900637CBC /* Preview Assets.xcassets in Resources */,
 				9522EA2B2A84D77100C6D89B /* StoneVase.usdz in Resources */,
-				9599396B2A7BFC5D00DC2223 /* toy_biplane_idle.usdz in Resources */,
 				954C0B112A83A0AB00EC15EA /* LargePillow.usdz in Resources */,
 				95BAA61A2A8B61B800802421 /* BookshelfNoBook.usdz in Resources */,
 				95B8242E2A7AA4F900637CBC /* Assets.xcassets in Resources */,
@@ -323,6 +325,8 @@
 				95B8242A2A7AA4F800637CBC /* ContentView.swift in Sources */,
 				95D9EABA2A8A691B00E7F8C8 /* Highlight.swift in Sources */,
 				95FBCA5F2A853BE400400F8B /* RadialView.swift in Sources */,
+				95119A292A93EF2F000F5AB9 /* GifImage.swift in Sources */,
+				95BE1CC82A8CCF660051997E /* MenuView.swift in Sources */,
 				95B824282A7AA4F800637CBC /* AppDelegate.swift in Sources */,
 				95D9EAB82A8A658400E7F8C8 /* ShowCaseHelper.swift in Sources */,
 				95B8242C2A7AA4F800637CBC /* Experience.rcproject in Sources */,
@@ -458,7 +462,7 @@
 				DEVELOPMENT_TEAM = 76LP36F4KH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow \"Realmscape\" to access your camera for an immersive Augmented Reality experience";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
@@ -489,7 +493,7 @@
 				DEVELOPMENT_TEAM = 76LP36F4KH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow \"Realmscape\" to access your camera for an immersive Augmented Reality experience";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;

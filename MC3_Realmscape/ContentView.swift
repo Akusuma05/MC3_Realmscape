@@ -63,7 +63,7 @@ struct ContentView : View {
                                 activeIndex == index ?
                                 RoundedRectangle(cornerRadius: 10)
                                     .stroke(Color.blue, lineWidth: 4)
-                                    .showCase(order: 0, title: "Select a furniture by sliding left and right", cornerRadius: 10, style: .continuous, offset: 325)
+                                    .showCase(order: 0, title: "Select a furniture by sliding left and right", cornerRadius: 10, style: .continuous, offset: 330)
                                 : nil
                             )
                         
@@ -84,6 +84,7 @@ struct ContentView : View {
             
             //OnBoarding
         }
+        .navigationBarHidden(true)
         .overlay(alignment: .bottom, content: {
             ZStack() {
                 Circle()
